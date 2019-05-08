@@ -1,0 +1,8 @@
+<div style="position: relative">  
+  {{candidate.name}}<br>
+  Previously Worked with: <span *ngFor="let comp of candidate.previously_worked_with">{{ comp }} </span><br>
+  Potential Tax Credit: {{candidate.tax_credit_status}}<br>
+  Availability: {{candidate.availability}}<br>
+  Position: {{candidate.position}}<br>
+  City: {{candidate.city}}
+</div>

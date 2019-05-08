@@ -1,0 +1,57 @@
+<style>
+  #foo {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+</style>
+<div class=".g_chat"><h1>Angular Bot</h1>
+<link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+  
+  <!-- Milligram CSS minified -->
+<link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+
+<ng-container *ngFor="let message of messages | async">
+
+  <div class="message" [ngClass]="{ 'from': message.sentBy === 'bot',
+                                    'to':   message.sentBy === 'user'
+                                   }">
+    
+    <div *ngIf=" message.sentBy !== 'system'">
+    
+      <div  *ngIf=" message.content === 'Plz choose the availability from below'">
+        {{message.content}}
+        <div>
+        <button type="button" style="margin:5px;" (click)="formValue='1 week'; buttonsendMessage()"> within week</button>
+        <button type="button" style="margin:5px;" (click)="formValue='2 week'; buttonsendMessage()">within 2 week</button>
+        <button type="button" style="margin:5px;" (click)="formValue='3 week'; buttonsendMessage()">within 3 week</button>
+        <button type="button" style="margin:5px;" (click)="formValue='within month or after'; buttonsendMessage()">next month or after</button>
+      </div>
+      </div>
+      <div *ngIf=" message.content !== 'Plz choose the availability from below'">
+        {{message.content}}
+    
+      </div>
+    </div>
+    <div *ngIf="message.sentBy ==='system'">
+    
+       <a>{{message.content}}</a>
+       <div>
+         <button type="button" style="margin:5px;">View</button>
+         <button type="button" style="margin:5px;">Reach Out</button>
+       </div>
+    </div>
+  
+
+  </div>
+
+</ng-container>
+
+
+<label for="nameField">Your Message</label>
+
+
+<input [(ngModel)]="formValue" (keyup.enter)="sendMessage()" type="text">
+
+<button (click)="sendMessage()">Send</button>
+</div>

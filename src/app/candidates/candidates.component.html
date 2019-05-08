@@ -1,0 +1,71 @@
+<div class="candidates-wrapper">
+  <div class="left-panel">
+    <div>
+      <span class="tab" (click)="toggleView(false)" [ngClass]="{'highlight': !isSearchViewOpened}">View Candidates</span>
+      <span class="tab" (click)="toggleView(true)" [ngClass]="{'highlight': isSearchViewOpened}">Anvanced Search</span>
+    </div>
+    <div class="search-fields-view" *ngIf="isSearchViewOpened">
+      <div class="form-group">
+        <label for="industry">Industry</label><br>
+        <select name="industry" class="form-control" [(ngModel)]="industry">
+        <option value="Retail">Retail</option>
+        <option value="Manfacturing">Manfacturing</option>
+        <option value="Hospitality">Hospitality</option>
+        <option value="Logistics">Logistics</option>
+      </select>
+      </div>
+
+      <div class="form-group">
+        <label for="location">Location</label><br>
+        <input type="text" [(ngModel)]="location" name="location" class="form-control" />
+      </div>
+      <div class="form-group">
+        <label for="role">Role</label><br>
+        <select name="role" class="form-control" [(ngModel)]="role">
+        <option value="Driver">Driver</option>
+        <option value="Sales">Sales</option>
+        <option value="Waiter">Waiter</option>
+        <option value="Plumber">Plumber</option>
+      </select>
+      </div>
+      <div class="form-group">
+        <label for="availability">Availability</label><br>
+        <select name="availability" class="form-control" [(ngModel)]="availability">
+        <option value="< 2 Weeks">< 2 Weeks</option>
+        <option value="< 3 Weeks">< 3 Weeks</option>
+        <option value="< 4 Weeks">< 4 Weeks</option>
+        <option value="> 4 Weeks">> 4 Weeks</option>
+      </select>
+      </div>
+      <div class="form-group">
+        <label for="potential_tc">Potential Tax Credit</label><br>
+        <select name="potential_tc" class="form-control" [(ngModel)]="potential_tc">
+        <option value="High">High</option>
+        <option value="Med">Med</option>
+        <option value="Low">Low</option>
+      </select>
+      </div>
+
+      <div style="clear: both; text-align: center;">
+        <button class="btn btn-success" (click)="searchcandidates()">Search</button>
+      </div>
+    </div>
+    <div class="candidates-tiles-wrapper" #candidatesTilesWrapper>
+      <h3 *ngIf="candidatesList?.length === 0" class="text-warning">No records Found</h3>
+      <div *ngFor="let candidate of candidatesList" class="candidate-tile" (click)="opendetailedView(candidate)">
+        <input type="checkbox" style="position: relative; left: 50%; top: -5px; cursor: pointer;" (change)="selectCandidate($event, candidate);$event.stopPropagation();">
+        <candidate-tile [candidate]="candidate">
+        </candidate-tile>
+      </div>
+    </div>
+    <div style="bottom: 0px; padding: 10px; margin: 10px; width: 512px;">
+      <a (click)="getMoreCandidates()">See More</a>
+      <button (click)="sendMail()" style="float: right" class="btn btn-success"> Reach Out</button>
+    </div>
+  </div>
+  <div class="right-panel">
+    <div class="chatbot-wrapper">
+      <chat-dialog></chat-dialog>
+    </div>
+  </div>
+</div>

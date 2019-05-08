@@ -1,0 +1,63 @@
+.candidates-wrapper{
+    position: relative;
+    width: 1024px;
+    height: 100%;
+    top: 20px;
+    margin: 0px auto;
+    border: 1px solid #ccc;
+    .left-panel{
+        width: 50%;
+        
+        .search-fields-view{
+            width: 100%;
+            padding: 10px;
+            .form-group{
+                width: 30%;
+                float: left;
+                margin: 5px;
+            }
+        }
+        .candidates-tiles-wrapper{
+            width: 512px;
+            height: auto;
+            max-height: 400px;
+            overflow-y: auto;
+            text-align: center;
+            clear: both;
+            .candidate-tile{
+                width: 180px;
+                height: 180px;
+                border: 1px solid #000000;
+                margin: 10px;
+                float: left;
+                vertical-align: middle;
+                background: #0d5060;
+                padding: 10px;
+                color: #ccc;
+            }
+        }
+        .tab{
+            margin: 5px 10px;
+            color: #0d5060;
+        }
+        .highlight{
+            font-weight: bold;
+        }
+    }
+    .right-panel{
+        width: 512px;
+        right: 0px;
+        top: 0px;
+        position: absolute;
+        height: 480px;
+        .chatbot-wrapper{
+            width: 100%;
+            height: 240px;
+            position: absolute;
+            bottom: 0px;
+            border: 1px solid #ccc;
+            overflow: auto;
+            padding: 10px;
+        }
+    }
+}

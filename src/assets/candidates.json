@@ -1,0 +1,290 @@
+[	
+    {
+        "name": "Frank Martin",
+        "previously_worked_with": ["Retail", "Manfacturing" ],
+        "tax_credit_status": "High",
+        "availability" : "< 2 Weeks",
+		"position" : "Driver",
+		"city" : "Atlanta"
+	},
+	{
+        "name": "Jason Bourne",
+        "previously_worked_with": ["Retail", "Manfacturing" ],
+        "tax_credit_status": "High",
+        "availability" : "< 4 Weeks",
+		"position" : "Driver",
+		"city" : "Atlanta"
+	},
+	{
+        "name": "Rowdy Burns",
+        "previously_worked_with": ["Retail", "Manfacturing" ],
+        "tax_credit_status": "High",
+        "availability" : "> 4 Weeks",
+		"position" : "Driver",
+		"city" : "Atlanta"
+	},
+	{
+        "name": "Randall Memphis Raines",
+        "previously_worked_with": ["Hospitality", "Manfacturing" ],
+        "tax_credit_status": "Med",
+        "availability" : "< 2 Weeks",
+		"position" : "Driver",
+		"city" : "Atlanta"
+	},
+	{
+        "name": "Annie Porter",
+        "previously_worked_with": ["Hospitality", "Manfacturing" ],
+        "tax_credit_status": "Med",
+        "availability" : "< 4 Weeks",
+		"position" : "Driver",
+		"city" : "Atlanta"
+	},
+	{
+        "name": "Letty Ortiz",
+        "previously_worked_with": ["Hospitality", "Manfacturing" ],
+        "tax_credit_status": "Med",
+        "availability" : "> 4 Weeks",
+		"position" : "Driver",
+		"city" : "Atlanta"
+	},
+	{
+        "name": "Dominic Toretto",
+        "previously_worked_with": ["Logistics", "Manfacturing" ],
+        "tax_credit_status": "Low",
+        "availability" : "< 2 Weeks",
+		"position" : "Driver",
+		"city" : "Atlanta"
+	},
+	{
+        "name": "Brian O'Connor",
+        "previously_worked_with": ["Logistics", "Manfacturing" ],
+        "tax_credit_status": "Low",
+        "availability" : "< 4 Weeks",
+		"position" : "Driver",
+		"city" : "Atlanta"
+	},
+	{
+        "name": "Han Seoul-Oh",
+        "previously_worked_with": ["Logistics", "Manfacturing" ],
+        "tax_credit_status": "Low",
+        "availability" : "> 4 Weeks",
+		"position" : "Driver",
+		"city" : "Atlanta"
+	},
+	{
+        "name": "Forrest Gump",
+        "previously_worked_with": ["Retail", "Manfacturing" ],
+        "tax_credit_status": "High",
+        "availability" : "< 2 Weeks",
+		"position" : "Sales",
+		"city" : "Atlanta"
+	},
+	{
+        "name": "James Bond",
+        "previously_worked_with": ["Retail", "Manfacturing" ],
+        "tax_credit_status": "High",
+        "availability" : "< 4 Weeks",
+		"position" : "Sales",
+		"city" : "Atlanta"
+	},
+	{
+        "name": "Han Solo",
+        "previously_worked_with": ["Retail", "Manfacturing" ],
+        "tax_credit_status": "High",
+        "availability" : "> 4 Weeks",
+		"position" : "Sales",
+		"city" : "Atlanta"
+	},
+	{
+        "name": "Captain Jack Sparrow",
+        "previously_worked_with": ["Hospitality", "Manfacturing" ],
+        "tax_credit_status": "Med",
+        "availability" : "< 2 Weeks",
+		"position" : "Sales",
+		"city" : "Atlanta"
+	},
+	{
+        "name": "Yoda",
+        "previously_worked_with": ["Hospitality", "Manfacturing" ],
+        "tax_credit_status": "Med",
+        "availability" : "< 4 Weeks",
+		"position" : "Waiter",
+		"city" : "Atlanta"
+	},
+	{
+        "name": "Gandalf",
+        "previously_worked_with": ["Hospitality", "Manfacturing" ],
+        "tax_credit_status": "Med",
+        "availability" : "> 4 Weeks",
+		"position" : "Waiter",
+		"city" : "Atlanta"
+	},
+	{
+        "name": "Bruce Wayne",
+        "previously_worked_with": ["Logistics", "Manfacturing" ],
+        "tax_credit_status": "Low",
+        "availability" : "< 2 Weeks",
+		"position" : "Waiter",
+		"city" : "Atlanta"
+	},
+	{
+        "name": "Luke Skywalker",
+        "previously_worked_with": ["Logistics", "Manfacturing" ],
+        "tax_credit_status": "Low",
+        "availability" : "< 4 Weeks",
+		"position" : "Sales",
+		"city" : "Atlanta"
+	},
+	{
+        "name": "Harry Potter",
+        "previously_worked_with": ["Logistics", "Manfacturing" ],
+        "tax_credit_status": "Low",
+        "availability" : "> 4 Weeks",
+		"position" : "Waiter",
+		"city" : "Atlanta"
+	},
+	{
+        "name": "Joker",
+        "previously_worked_with": ["Retail", "Manfacturing" ],
+        "tax_credit_status": "High",
+        "availability" : "< 2 Weeks",
+		"position" : "Driver",
+		"city" : "Florence"
+	},
+	{
+        "name": "Darth Vader",
+        "previously_worked_with": ["Retail", "Manfacturing" ],
+        "tax_credit_status": "High",
+        "availability" : "< 4 Weeks",
+		"position" : "Driver",
+		"city" : "Florence"
+	},
+	{
+        "name": "Hannibal Lecter",
+        "previously_worked_with": ["Retail", "Manfacturing" ],
+        "tax_credit_status": "High",
+        "availability" : "> 4 Weeks",
+		"position" : "Driver",
+		"city" : "Florence"
+	},
+	{
+        "name": "Lord Voldemort",
+        "previously_worked_with": ["Hospitality", "Manfacturing" ],
+        "tax_credit_status": "Med",
+        "availability" : "< 2 Weeks",
+		"position" : "Driver",
+		"city" : "Florence"
+	},
+	{
+        "name": "Jack Torrance",
+        "previously_worked_with": ["Hospitality", "Manfacturing" ],
+        "tax_credit_status": "Med",
+        "availability" : "< 4 Weeks",
+		"position" : "Driver",
+		"city" : "Florence"
+	},
+	{
+        "name": "Magneto",
+        "previously_worked_with": ["Hospitality", "Manfacturing" ],
+        "tax_credit_status": "Med",
+        "availability" : "> 4 Weeks",
+		"position" : "Driver",
+		"city" : "Florence"
+	},
+	{
+        "name": "Terminator",
+        "previously_worked_with": ["Logistics", "Manfacturing" ],
+        "tax_credit_status": "Low",
+        "availability" : "< 2 Weeks",
+		"position" : "Driver",
+		"city" : "Florence"
+	},
+	{
+        "name": "Palpatine",
+        "previously_worked_with": ["Logistics", "Manfacturing" ],
+        "tax_credit_status": "Low",
+        "availability" : "< 4 Weeks",
+		"position" : "Driver",
+		"city" : "Florence"
+	},
+	{
+        "name": "Agent Smith",
+        "previously_worked_with": ["Logistics", "Manfacturing" ],
+        "tax_credit_status": "Low",
+        "availability" : "> 4 Weeks",
+		"position" : "Driver",
+		"city" : "Florence"
+	},
+	{
+        "name": "Scar",
+        "previously_worked_with": ["Retail", "Manfacturing" ],
+        "tax_credit_status": "High",
+        "availability" : "< 2 Weeks",
+		"position" : "Waiter",
+		"city" : "Florence"
+	},
+	{
+        "name": "Hans Gruber",
+        "previously_worked_with": ["Retail", "Manfacturing" ],
+        "tax_credit_status": "High",
+        "availability" : "< 4 Weeks",
+		"position" : "Waiter",
+		"city" : "Florence"
+	},
+	{
+        "name": "Michael Myers",
+        "previously_worked_with": ["Retail", "Manfacturing" ],
+        "tax_credit_status": "High",
+        "availability" : "> 4 Weeks",
+		"position" : "Waiter",
+		"city" : "Florence"
+	},
+	{
+        "name": "Hans Landa",
+        "previously_worked_with": ["Hospitality", "Manfacturing" ],
+        "tax_credit_status": "Med",
+        "availability" : "< 2 Weeks",
+		"position" : "Waiter",
+		"city" : "Florence"
+	},
+	{
+        "name": "Sauron",
+        "previously_worked_with": ["Hospitality", "Manfacturing" ],
+        "tax_credit_status": "Med",
+        "availability" : "< 4 Weeks",
+		"position" : "Sales",
+		"city" : "Florence"
+	},
+	{
+        "name": "Bane",
+        "previously_worked_with": ["Hospitality", "Manfacturing" ],
+        "tax_credit_status": "Med",
+        "availability" : "> 4 Weeks",
+		"position" : "Sales",
+		"city" : "Florence"
+	},
+	{
+        "name": "Predator",
+        "previously_worked_with": ["Logistics", "Manfacturing" ],
+        "tax_credit_status": "Low",
+        "availability" : "< 2 Weeks",
+		"position" : "Sales",
+		"city" : "Florence"
+	},
+	{
+        "name": "Jason Voorhees",
+        "previously_worked_with": ["Logistics", "Manfacturing" ],
+        "tax_credit_status": "Low",
+        "availability" : "< 4 Weeks",
+		"position" : "Sales",
+		"city" : "Florence"
+	},
+	{
+        "name": "Thanos",
+        "previously_worked_with": ["Logistics", "Manfacturing" ],
+        "tax_credit_status": "Low",
+        "availability" : "< 3 Weeks",
+		"position" : "Sales",
+		"city" : "Florence"
+	}    
+] 
